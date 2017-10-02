@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--
- Copyright (c) Microsoft Open Technologies, Inc.  All Rights Reserved. 
+ Copyright (c) Microsoft Open Technologies, Inc.  All Rights Reserved.
  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
 -->
 <plugin id="cordova-plugin-ms-outlook" version="0.6.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
@@ -12,10 +12,10 @@
     <repo>https://github.com/OfficeDev/cordova-plugin-ms-outlook</repo>
     <issue>https://github.com/OfficeDev/cordova-plugin-ms-outlook/issues</issue>
 
-    <dependency id="cordova-plugin-ms-office-rest-client" url="https://github.com/MSOpenTech/cordova-plugin-ms-office-rest-client.git#0.2.x"/>
+    <dependency id="cordova-plugin-ms-office-rest-client" url="https://github.com/OfficeDev/cordova-plugin-ms-office-rest-client#0.2.x"/>
 
     <js-module name="utility" src="www/utility.js"/>
-    
+
     <js-module name="Entity" src="www/Entity.js">
         <runs />
     </js-module>
