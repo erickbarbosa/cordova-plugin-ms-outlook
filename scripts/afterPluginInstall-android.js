@@ -5,7 +5,7 @@
 module.exports = function (ctx) {
     var path = ctx.requireCordovaModule('path');
     var et = ctx.requireCordovaModule('elementtree');
-    var ConfigParser = ctx.requireCordovaModule('../ConfigParser/ConfigParser');
+    var ConfigParser = require('cordova-lib/src/ConfigParser/ConfigParser');
     var configFile = path.resolve(ctx.opts.projectRoot, 'config.xml');
     var config = new ConfigParser(configFile);
     var MIN_SDK_VERSION = 15;
