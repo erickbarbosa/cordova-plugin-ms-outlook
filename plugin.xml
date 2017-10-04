@@ -12,7 +12,7 @@
     <repo>https://github.com/OfficeDev/cordova-plugin-ms-outlook</repo>
     <issue>https://github.com/OfficeDev/cordova-plugin-ms-outlook/issues</issue>
 
-    <dependency id="cordova-plugin-ms-office-rest-client" url="https://github.com/erickbarbosa/cordova-plugin-ms-office-rest-client#0.2.x"/>
+    <dependency id="cordova-plugin-ms-office-rest-client" url="https://github.com/OfficeDev/cordova-plugin-ms-office-rest-client"/>
 
     <js-module name="utility" src="www/utility.js"/>
 
